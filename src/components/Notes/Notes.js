@@ -54,7 +54,6 @@ const Notes = ({ date }) => {
                         onClick={() => setMood(null)}
                     />
             }
-            {/* {(() => memoizedCreateList(actualNotesArray, changeNotesArray))()} */}
             <List
                 itemLayout='horizontal'
                 dataSource={actualNotesArray}
