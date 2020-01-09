@@ -1,0 +1,25 @@
+.date-list {
+    cursor: pointer;
+    width: 136px;
+    border: 1px solid grey;
+    background-color: rgb(192, 190, 186);
+    color: whitesmoke;
+    position: fixed;
+    z-index: 2;
+}
+.hidden {
+    display: none;
+}
+
+.date-list-item-meta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(238, 232, 232);
+}
+.month-list {
+    left: 136px;
+}
+.days-list {
+    left: 272px;
+}

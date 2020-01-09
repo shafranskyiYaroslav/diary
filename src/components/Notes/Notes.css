@@ -1,0 +1,12 @@
+.row-notes-title {
+    height: 40px; 
+}
+.h2-notes-title {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.emoji-menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

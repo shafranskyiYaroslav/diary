@@ -1,0 +1,10 @@
+.row-date-picker {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.date-picker {
+    width: 100%;
+}
